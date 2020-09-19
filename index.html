@@ -179,12 +179,15 @@
     <p class="setup-similar-label">Петр Петров</p>
   </div>
 </template>
+<script>
+  var fireballSize = 22;
+
 
 <canvas id="stats" width="420" height="270"></canvas>
 
 <script>
   var fireballSize = 22;
-
+  
   var getFireballSpeed = function (isMovingLeft) {
     return isMovingLeft ? 2 : 5;
   }
